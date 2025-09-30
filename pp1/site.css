@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(174, 210, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+.asd {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(18, 105, 182);
+}
+
+.asd li {
+    padding: 20px 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom: none;
+    border-top: none;
+    position: relative;
+}
+
+.asd a {
+    color: black;
+    text-decoration: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.asd li:hover {
+    transform: scale(1.1);
+    background-color: rgb(16, 98, 170);
+}
+
+
+.sub {
+    list-style-type: none;
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: rgb(16, 98, 170);
+    width: 100%;
+}
+
+.sub li {
+    padding: 10px 20px;
+}
+
+.sub li a {
+    color: rgb(0, 0, 0);
+}
+
+
+.asd li:hover .sub {
+    display: block; 
+    position: absolute;
+    top: 100px;
+}
+
+

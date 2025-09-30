@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(137, 208, 231);
+    font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;  
+}   
+
+nav{
+    background-color: rgb(114, 202, 231);
+    height: 150px;
+    width: 100vw;
+    border: 1px solid rgb(0, 54, 71);
+    box-shadow: 3px 3px 40px rgb(34, 57, 65);
+    border-radius: 0 0 10px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Remove marcadores e padding/margin da lista */
+.menu {
+  list-style: none; /* Remove os pontos da lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Alinha os itens da lista em linha */
+  justify-content: center; /* Centraliza os itens no navegador */
+}
+
+/* Estiliza os itens da lista */
+.menu li {
+  margin: 0 50px; /* Adiciona espaço entre os itens */
+}
+
+/* Estiliza os links */
+.menu li a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: #333; /* Cor do texto do link */
+  padding: 5px 10px; /* Espaçamento interno do link */
+  display: block; /* Garante que o padding seja aplicado corretamente */
+}
+
+/* Efeito de hover para os links */
+.menu li a:hover {
+  background-color: #ddd; /* Cor de fundo ao passar o mouse */
+  color: #000; /* Cor do texto ao passar o mouse */
+}
